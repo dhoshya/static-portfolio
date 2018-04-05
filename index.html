@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/scrollbar.css">
     <link rel="stylesheet" href="assets/styles/navbar.css">
+    <link rel="stylesheet" href="assets/styles/animate.css">
+    <link rel="stylesheet" href="assets/styles/skillsDisplay.css">
     <link rel="stylesheet" href="assets/styles/skills.css">
     <link rel="stylesheet" href="assets/styles/experience.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
@@ -84,51 +86,89 @@
                 <!--- About Element Start -->
       <div class="container-fluid" id="about">
         <div class="row">
-          <div class="col-sm-10 col-lg-7 mx-auto">
+          <div class="col-sm-10 col-lg-8 mx-auto">
           <h3>About Me</h3>
-          <div class="row mt-5">
-            <div class="col-sm-8">
+          <div class="row mt-7">
+            <div class="col-sm-7">
               <div class="text-justify">
-                <h4>This is a short introduction to who I am</h4>
-                <p class="pt-2">
-                  ABCD
-                </p>
-                <p>
-                  <h4>I am a Graduate Student at George Mason University</h4>
+
+                <p style="color: white">
+                  I am a Graduate Student at George Mason University majoring in
+                  Software Engineering based in Fairfax, VA.
 
                 </p>
-                <p>
-                  <h4>I have been a Computer Science student since my junior high
-                    school. I pursued my passion as a Bachelor's Degree in the same
-                    and right now stated to gradute with my Master's degree in
-                    December 2018.
-                  </h4>
+
+                <p style="color: white">
+                  I have been a Computer Science student since my junior high
+                  school. I pursued my passion as a Bachelor's Degree in the same
+                  and right now stated to gradute with my Master's degree in
+                  December 2018.
                 </p>
 
-                <p>
-                  <h4>I have been a Computer Science student since my junior high
-                    school. I pursued my passion as a Bachelor's Degree in the same
-                    and right now stated to gradute with my Master's degree in
-                    December 2018.
-                  </h4>
+                <p style="color: white">
+                  The focus is always on to create, innovate and develop
+                  high quality code, which has real-world applications by providing
+                  a great user friendly interface. Along with that, I am diving in the ubiquitous
+                  field of Artificial Intelligence as a part of my post-graduation.
                 </p>
 
-                <p>
-                  <h4>I have been a Computer Science student since my junior high
-                    school. I pursued my passion as a Bachelor's Degree in the same
-                    and right now stated to gradute with my Master's degree in
-                    December 2018.
-                  </h4>
+                <p style="color: white">
+                  I am lucky enough to have hands-on experience with the latest
+                  tech in the market at all points in my career. I was introduced
+                  to Image Recognition and Web Applications in the year 2014 as a
+                  part of my internship which has left me impacted since.
                 </p>
-                <p>
 
+                <p style="color: white">
+                  I am very interested towards perfecting myself as a Full-Stack
+                  Engineer and am continuously improving my skillset both as a
+                  part of my academics and personal projects.
                 </p>
+                <p style="color: white">
+                  You can find more about me at -
+                </p>
+                <div class="row">
+                  <div class="col-4">
+                    <a href="http://www.linkedin.com/in/dhoshya/"
+                      target="_blank"
+                      rel="noopener">
+                      <i class="icon fa fa-linkedin-square"
+                        style="font-size: 36px"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a href="http://github.com/dhoshya"
+                      target="_blank"
+                      rel="noopener">
+                      <i class="icon fa fa-github"
+                        style="font-size: 36px"
+                      ></i>
+                    </a>
+                </div>
+                <div class="col-4">
+                  <a href="http://github.com/dhoshya"
+                    target="_blank"
+                    rel="noopener">
+                    <i class="icon fa fa-github"
+                      style="font-size: 36px"
+                    ></i>
+                  </a>
+              </div>
               </div>
             </div>
+          </div>
 
-            <div class="col-sm-3">
-              <div class="mx-auto">
-                <img src="assets/images/me.jpg" class="my-photo">
+
+            <div class="col-sm-4 offset-1">
+              <div class='circle-container'>
+  	<a href='#' class='center'><img src="assets/images/javascript.png"></a>
+  	<a href='#' class='deg0'><img src="assets/images/react.png"></a>
+  	<a href='#' class='deg45'><img src="assets/images/nodejs.png"></a>
+  	<a href='#' class='deg135'><img src="assets/images/java.png"></a>
+  	<a href='#' class='deg180'><img src="assets/images/angular.png"></a>
+  	<a href='#' class='deg225'><img src="assets/images/typescript.png"></a>
+  	<a href='#' class='deg315'><img src="assets/images/wordpress.png"></a>
               </div>
             </div>
 
@@ -136,6 +176,7 @@
         </div>
       </div>
     </div>
+
 
       <div class="jarallax" data-jarallax='{"speed": 0.5}'>
         <img class="jarallax-img" src="assets/images/header.jpg" alt="">
@@ -413,7 +454,7 @@
             <!-- Projects Element Start -->
             <div id="projects" class="container-fluid">
               <div class="row">
-                <div class="col-md-7  mx-auto">
+                <div class="col-md-8  mx-auto">
                   <h3>Projects</h3>
                   <br>
                   <br>
@@ -424,7 +465,7 @@
                         <div class="ribbon ribbon-blue">
                           <span>Academic</span>
                         </div>
-                        <img class="card-img-top" src="assets/images/header.jpg">
+                        <img class="card-img-top" src="assets/images/cs688.png">
                         <div class="card-body ">
                           <hr class="style-three">
                           <h4 class="card-title">Handwritten Digit Recognition</h4>
@@ -433,7 +474,10 @@
                             performed using TensorFlow and Python at 98.9% accuracy</p>
                         </div>
                         <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">Github</a>
+                          <a target="_blank" rel="noopener"
+                          href="https://github.com/dhoshya/CS-688"
+                          class="btn btn-primary">
+                          Github  <i class="icon fa fa-github"></i></a>
                         </div>
                       </div>
 
@@ -441,7 +485,7 @@
                         <div class="ribbon ribbon-orange">
                           <span>Personal</span>
                         </div>
-                        <img class="card-img-top" src="assets/images/header.jpg">
+                        <img class="card-img-top" src="assets/images/igsagmu.jpg">
                         <div class="card-body">
                           <hr class="style-three">
                           <h4 class="card-title">IGSA Website</h4>
@@ -464,10 +508,18 @@
                         <div class="card-body">
                           <hr class="style-three">
                           <h4 class="card-title">Customer Survey Web App</h4>
-                          <p class="card-text">IJKL</p>
+                          <p class="card-text">
+                            Developed survey database web application to store customer data,
+                            survey answers and featured listing of customers with options to
+                            search, add, remove a record. REST API’s were created for zip code.
+                            JSF2.2, Primefaces, SQL, JPA and JAX-RS were used.
+                          </p>
                         </div>
                         <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">HMM</a>
+                          <a target="_blank" rel="noopener"
+                          href="https://github.com/dhoshya/CS-688"
+                          class="btn btn-primary">
+                          Github  <i class="icon fa fa-github"></i></a>
                         </div>
                       </div>
                     </div>
@@ -485,7 +537,13 @@
                         <div class="card-body ">
                           <hr class="style-three">
                           <h4 class="card-title">Face Detection and Gender Recogition</h4>
-                          <p class="card-text">ABCD</p>
+                          <p class="card-text">
+                            A solution to the real-time detection of faces was developed
+                            using C++ and OpenCV Libraries. The program was given a
+                            training set of about 100 faces. I was in-charge of feature
+                            extraction of the input faces and used Viola – Jones Technique
+                            with AdaBoost Learning Algorithm to reach to the conclusion.
+                          </p>
                         </div>
                         <div class="card-footer">
                           <a target="_blank" rel="noopener" href="" class="btn btn-primary">Github</a>
@@ -500,7 +558,13 @@
                         <div class="card-body ">
                           <hr class="style-three">
                           <h4 class="card-title">SAN Analysis</h4>
-                          <p class="card-text">ABCD</p>
+                          <p class="card-text">
+                            This project was basically to analyze the internal
+                            System Area Network of the Technical University of Sofia.
+                            The network packets were analyzed using OMNET++. The effects
+                            on latency were studied and reported after changing different
+                            parameters of the network.
+                          </p>
                         </div>
                         <div class="card-footer">
                           <a target="_blank" rel="noopener" href="" class="btn btn-primary">Github</a>
@@ -516,7 +580,13 @@
                           <hr class="style-three">
                           <h4 class="card-title">Undergrad Thesis</h4>
                           <h5 class="card-title">SKN Digitisation</h5>
-                          <p class="card-text">IJKL</p>
+                          <p class="card-text">
+                            Along with my team I developed a website for the department of
+                            computer science in our college using Joomla v3.4 framework.
+                            I chose this as my thesis to bridge the increasing gap between
+                            the faculty and students. Services like Online Notice, Online Feedback,
+                            Documents Repository etc. were implemented.
+                          </p>
                         </div>
                         <div class="card-footer">
                           <a target="_blank" rel="noopener" href="" class="btn btn-primary">HMM</a>
@@ -537,7 +607,14 @@
                         <div class="card-body">
                           <hr class="style-three">
                           <h4 class="card-title">Bluff Card Game</h4>
-                          <p class="card-text">EFGH</p>
+                          <p class="card-text">
+                            As the course requirement for Secure Software Design,
+                            we developed a card game. The basic objective of this
+                            project was to implement security features to the game
+                            using SSL/TLS. The project was completed using Java,
+                            JSF, Hibernate, MySQL and the front side was designed using
+                            HTML/CSS/JS.
+                          </p>
                         </div>
                         <div class="card-footer">
                           <a target="_blank" rel="noopener" href="" class="btn btn-primary">Visit</a>
@@ -552,10 +629,18 @@
                         <div class="card-body">
                           <hr class="style-three">
                           <h4 class="card-title">Static Portfolio</h4>
-                          <p class="card-text">EFGH</p>
+                          <p class="card-text">
+                            The site you are on right now, developed using advanced
+                            HTML, CSS and Bootstap 4. ParticlesJS is used as the
+                            background.
+                            </thead>
+                          </p>
                         </div>
                         <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">Visit</a>
+                          <a target="_blank" rel="noopener"
+                          href="https://github.com/dhoshya/static-portfolio"
+                          class="btn btn-primary">
+                          Github  <i class="icon fa fa-github"></i></a>
                         </div>
                       </div>
 
@@ -567,10 +652,15 @@
                         <div class="card-body">
                           <hr class="style-three">
                           <h4 class="card-title">Dynamic Portfolio</h4>
-                          <p class="card-text">EFGH</p>
+                          <p class="card-text">
+                            Currently working on migrating this portfolio entirely
+                            onto Angular based web-app with backend support of
+                            Firebase and links to the upcoming blog.
+                          </p>
                         </div>
                         <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">Visit</a>
+                          <a target="_blank"
+                          rel="noopener" class="btn btn-primary">Coming Soon</a>
                         </div>
                       </div>
 
@@ -599,7 +689,7 @@
   	</div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-4">
           <h5 style="color: white">More About Me</h5>
           <a href="http://www.linkedin.com/in/dhoshya/"
             target="_blank"
@@ -609,22 +699,28 @@
           <a href="http://github.com/dhoshya"
             target="_blank"
             rel="noopener">Github
-            <i class="icon fa fa-github"></i>
+            <i class="icon fa fa-github"
+              style="font-size: 36px"
+            ></i>
           </a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-4">
           <h5 style="color: white">Email</h5>
-          <a href="mailto:joshi.rohan09@gmail.com">Personal
-            <i class="icon fa fa-envelope"></i>
+          
+          <a href="mailto:joshi.rohan09@gmail.com">joshi.rohan09@gmail.com |
+            <!-- <i class="icon fa fa-envelope"></i> -->
           </a>
-          <a href="mailto:rjoshi9@gmu.edu">Education
-            <i class="icon fa fa-envelope"></i>
+          <a href="mailto:rjoshi9@gmu.edu">rjoshi9@gmu.edu
+            <!-- <i class="icon fa fa-envelope"></i> -->
           </a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-4">
           <h5 style="color: white">Conversation</h5>
+
             <p style="color: white">
-              <i class="icon fa fa-phone"></i>571-444-9399
+              <a class="" href="#contact">
+                <i class="icon fa fa-phone"></i>571-444-9399
+              </a>
             </p>
         </div>
       </div>

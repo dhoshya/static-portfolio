@@ -3,7 +3,7 @@
 
   (function () {
     // bootstrap 4 smooth scrollspy
-    (".nav-item a").on('click', function (event) {
+    $('.nav-item a').on('click', function (event) {
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
@@ -16,7 +16,7 @@
     });
 
     // back to top button
-    ('#back-to-top').on('click',function () {
+    $('#back-to-top').on('click',function () {
       ('body,html').animate({
         scrollTop: 0
       }, 400);
