@@ -9,7 +9,7 @@ $(document).ready(function () {
 
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 400, function () {
+        }, 700, function () {
           window.location.hash = hash;
         });
       }
@@ -19,7 +19,7 @@ $(document).ready(function () {
     $('#back-to-top').on('click',function () {
       $('body,html').animate({
         scrollTop: 0
-      }, 400);
+      }, 700);
       return false;
     });
 

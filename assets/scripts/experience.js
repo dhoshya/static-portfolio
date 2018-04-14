@@ -1,11 +1,11 @@
 'use strict';
-(function () {
+$(document).ready(function () {
 
         function isElementInViewport(el) {
 
-          if (typeof jQuery === "function" && el instanceof jQuery) {
-        el = el[0];
-    }
+    //       if (typeof jQuery === "function" && el instanceof jQuery) {
+    //     el = el[0];
+    // }
             var rect = el.getBoundingClientRect();
             return (
                 rect.top >= 0 &&
@@ -29,4 +29,4 @@
         window.addEventListener("resize", callbackFunc);
         window.addEventListener("scroll", callbackFunc);
 
-})();
+});
