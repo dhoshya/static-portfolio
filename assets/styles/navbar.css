@@ -1,3 +1,7 @@
+.container {
+  
+}
+
 .navbar {
   font-size: 11px !important;
   font-family: 'Roboto', sans-serif !important;
@@ -23,8 +27,12 @@
   }
 }
 
-.text{
+.textScramble {
   color: #2aabd2;
+}
+
+.scramble {
+  color: #ffa500;
 }
 
 .navbar-toggler {
