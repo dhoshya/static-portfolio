@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" id="scrollbar">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'GA_TRACKING_ID');
+  </script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web/Software Developer Portfolio">
+    <meta name="author" content="Rohan Vijay Joshi">
+
     <title>Rohan Joshi</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -19,9 +30,6 @@
     <link rel="stylesheet" href="assets/styles/footer.css">
     <link rel="stylesheet" href="assets/styles/projects.css">
     <link rel="stylesheet" href="assets/styles/projectButtons.css">
-
-
-
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
@@ -36,6 +44,7 @@
 
   </head>
   <body data-spy="scroll" data-target="#nav-spy">
+
     <div id="particles-js"></div>
                   <!--- Navbar Element Start -->
 <div class="navbar-wrapper">
@@ -109,7 +118,7 @@
                 </p>
 
                 <p style="color: white">
-                  I have been a Computer Science student since my junior high
+                  I have been a Computer Science student since my junior year in high
                   school. I pursued my passion as a Bachelor's Degree in the same
                   and right now stated to gradute with my Master's degree in
                   December 2018.
@@ -137,6 +146,7 @@
                 <p style="color: white">
                   You can find more about me at -
                 </p>
+
                 <div class="row">
                   <div class="col-4">
                     <a href="http://www.linkedin.com/in/dhoshya/"
@@ -166,11 +176,12 @@
                   </a>
               </div>
               </div>
+
             </div>
           </div>
 
 
-            <div class="col-sm-4 offset-1">
+            <div class="col-sm-5">
               <div class='circle-container'>
   	<a href='#' class='center'><img src="assets/images/javascript.png"></a>
   	<a href='#' class='deg0'><img src="assets/images/react.png"></a>
@@ -196,7 +207,7 @@
 
 <!--- Skills Element Start -->
 
-      <div id="skills" class="container-fluid">
+      <div id="skills" class="container">
       	<div class="row">
       		<div class="col-sm-10 col-lg-7 mx-auto">
       			<h3 class="pb-5">Skills
@@ -294,11 +305,11 @@
       </div>
 
     <div class="jarallax" data-jarallax='{"speed": 0.5}'>
-      <img class="jarallax-img" src="assets/images/header.jpg" alt="">
+      <img class="jarallax-img" src="assets/images/gmu.jpg" alt="">
     </div>
 
             <!-- Skills Element End with jarallax -->
-    <div id="experience" class="container-fluid">
+    <div id="experience" class="container">
       <div class="row">
         <div class="col-sm-10 col-lg-7 mx-auto">
           <h3 class="pb-5">
@@ -379,13 +390,13 @@
         <hr class="style-one">
 
           <!-- TimeLine starts here -->
-          <div class="container-fluid">
+          <div class="container">
             <section class="timeline">
               <h3>TimeLine</h3>
 
               <ul>
                 <li>
-                  <div class="container">
+                  <div class="container-timeline">
                     <time class="job-date">April 2018-Present</time>
                     <time class="job-name">Mentor, IGSA &
                       <span class="job-highlight">Freelancing</span>
@@ -399,7 +410,7 @@
                 </li>
 
                 <li>
-                  <div class="container">
+                  <div class="container-timeline">
                     <time class="job-date">April 2017-April 2018</time>
                     <time class="job-name">Vice President,
                       <span class="job-highlight">IGSA</span>
@@ -416,7 +427,7 @@
                 </li>
 
                 <li>
-                  <div class="container">
+                  <div class="container-timeline">
                     <time class="job-date">August 2014-May 2016</time>
                     <time class="job-name">Technical Head,
                       <span class="job-highlight">ACE</span>
@@ -430,7 +441,7 @@
                 </li>
 
                 <li>
-                  <div>
+                  <div class="container-timeline">
                     <time class="job-date">June 2014 - August 2014</time>
                     <time class="job-name">Summer Intern,
                       <span class="job-highlight">Technical University of Sofia, Bulgaria</span>
@@ -453,26 +464,54 @@
     </div>
 
     <div class="jarallax" data-jarallax='{"speed": 0.5}'>
-      <img class="jarallax-img" src="assets/images/header.jpg" alt="">
+      <img class="jarallax-img" src="assets/images/projects.jpg" alt="">
     </div>
 
             <!-- Experience Element end with jarallax -->
 
             <!-- Projects Element Start -->
-            <div id="projects" class="container-fluid">
+            <div id="projects" class="container">
               <div class="row">
                 <div class="col-md-8  mx-auto">
                   <h3>Projects</h3>
+                  <hr class="style-one">
                   <br>
                   <br>
                   <div class="container-fluid">
 
                     <div class="card-deck">
+
+                      <div class="card text-center">
+                        <div class="ribbon ribbon-orange">
+                          <span>Personal</span>
+                        </div>
+                        <img class="card-img-top"
+                        src="assets/images/housing.jpg"
+                        alt="Card image cap">
+                        <div class="card-body">
+                          <hr class="style-three">
+                          <h4 class="card-title">Housing App</h4>
+                          <p class="card-text">
+                            Currently working on a Housing app for the Graduate
+                            Indian Students at GMU. It is an Angular based web
+                            app and Spring Boot is being used as a backend for
+                            same.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <a target="_blank" rel="noopener"
+                          href=""
+                          class="btn btn-primary">Coming Soon</a>
+                        </div>
+                      </div>
+
                       <div class="card text-center">
                         <div class="ribbon ribbon-blue">
                           <span>Academic</span>
                         </div>
-                        <img class="card-img-top" src="assets/images/cs688.png">
+                        <img class="card-img-top"
+                        src="assets/images/cs688.png"
+                        alt="Card image cap">
                         <div class="card-body ">
                           <hr class="style-three">
                           <h4 class="card-title">Handwritten Digit Recognition</h4>
@@ -503,37 +542,17 @@
                           </p>
                         </div>
                         <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="http://igsagmu.com" class="btn btn-primary">Visit</a>
+                          <a target="_blank" rel="noopener"
+                          href="http://igsagmu.com"
+                          class="btn btn-primary">Visit</a>
                         </div>
                       </div>
 
-                      <div class="card text-center">
-                        <div class="ribbon ribbon-blue">
-                          <span>Academic</span>
-                        </div>
-                        <img class="card-img-top" src="assets/images/header.jpg">
-                        <div class="card-body">
-                          <hr class="style-three">
-                          <h4 class="card-title">Customer Survey Web App</h4>
-                          <p class="card-text">
-                            Developed survey database web application to store customer data,
-                            survey answers and featured listing of customers with options to
-                            search, add, remove a record. REST API’s were created for zip code.
-                            JSF2.2, Primefaces, SQL, JPA and JAX-RS were used.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a target="_blank" rel="noopener"
-                          href="https://github.com/dhoshya/CS-688"
-                          class="btn btn-primary">
-                          Github  <i class="icon fa fa-github"></i></a>
-                        </div>
-                      </div>
                     </div>
 
                   </div>
               <!-- Second Row of Projects -->
-                  <div class="container-fluid">
+                  <div class="container">
 
                     <div class="card-deck">
                       <div class="card text-center">
@@ -553,79 +572,9 @@
                           </p>
                         </div>
                         <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">Github</a>
-                        </div>
-                      </div>
-
-                      <div class="card text-center">
-                        <div class="ribbon ribbon-black">
-                          <span style="color: black">Internship</span>
-                        </div>
-                        <img class="card-img-top" src="assets/images/header.jpg">
-                        <div class="card-body ">
-                          <hr class="style-three">
-                          <h4 class="card-title">SAN Analysis</h4>
-                          <p class="card-text">
-                            This project was basically to analyze the internal
-                            System Area Network of the Technical University of Sofia.
-                            The network packets were analyzed using OMNET++. The effects
-                            on latency were studied and reported after changing different
-                            parameters of the network.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">Github</a>
-                        </div>
-                      </div>
-
-                      <div class="card text-center">
-                        <div class="ribbon ribbon-blue">
-                          <span>Academic</span>
-                        </div>
-                        <img class="card-img-top" src="assets/images/header.jpg">
-                        <div class="card-body">
-                          <hr class="style-three">
-                          <h4 class="card-title">Undergrad Thesis</h4>
-                          <h5 class="card-title">SKN Digitisation</h5>
-                          <p class="card-text">
-                            Along with my team I developed a website for the department of
-                            computer science in our college using Joomla v3.4 framework.
-                            I chose this as my thesis to bridge the increasing gap between
-                            the faculty and students. Services like Online Notice, Online Feedback,
-                            Documents Repository etc. were implemented.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">HMM</a>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div class="container-fluid">
-
-                    <div class="card-deck">
-
-                      <div class="card text-center">
-                        <div class="ribbon ribbon-blue">
-                          <span>Academic</span>
-                        </div>
-                        <img class="card-img-top" src="assets/images/header.jpg">
-                        <div class="card-body">
-                          <hr class="style-three">
-                          <h4 class="card-title">Bluff Card Game</h4>
-                          <p class="card-text">
-                            As the course requirement for Secure Software Design,
-                            we developed a card game. The basic objective of this
-                            project was to implement security features to the game
-                            using SSL/TLS. The project was completed using Java,
-                            JSF, Hibernate, MySQL and the front side was designed using
-                            HTML/CSS/JS.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a target="_blank" rel="noopener" href="" class="btn btn-primary">Visit</a>
+                          <a target="_blank" rel="noopener"
+                          href=""
+                          class="btn btn-primary">Github</a>
                         </div>
                       </div>
 
@@ -653,22 +602,104 @@
                       </div>
 
                       <div class="card text-center">
-                        <div class="ribbon ribbon-orange">
-                          <span>Personal</span>
+                        <div class="ribbon ribbon-black">
+                          <span style="color: black">Internship</span>
+                        </div>
+                        <img class="card-img-top" src="assets/images/header.jpg">
+                        <div class="card-body ">
+                          <hr class="style-three">
+                          <h4 class="card-title">SAN Analysis</h4>
+                          <p class="card-text">
+                            This project was basically to analyze the internal
+                            System Area Network of the Technical University of Sofia.
+                            The network packets were analyzed using OMNET++. The effects
+                            on latency were studied and reported after changing different
+                            parameters of the network.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <a target="_blank" rel="noopener"
+                          href=""
+                          class="btn btn-primary">Github</a>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="container">
+
+                    <div class="card-deck">
+
+                      <div class="card text-center">
+                        <div class="ribbon ribbon-blue">
+                          <span>Academic</span>
                         </div>
                         <img class="card-img-top" src="assets/images/header.jpg">
                         <div class="card-body">
                           <hr class="style-three">
-                          <h4 class="card-title">Dynamic Portfolio</h4>
+                          <h4 class="card-title">Bluff Card Game</h4>
                           <p class="card-text">
-                            Currently working on migrating this portfolio entirely
-                            onto Angular based web-app with backend support of
-                            Firebase and links to the upcoming blog.
+                            As the course requirement for Secure Software Design,
+                            we developed a card game. The basic objective of this
+                            project was to implement security features to the game
+                            using SSL/TLS. The project was completed using Java,
+                            JSF, Hibernate, MySQL and the front side was designed using
+                            HTML/CSS/JS.
                           </p>
                         </div>
                         <div class="card-footer">
-                          <a target="_blank"
-                          rel="noopener" class="btn btn-primary">Coming Soon</a>
+                          <a target="_blank" rel="noopener"
+                          href=""
+                          class="btn btn-primary">Github</a>
+                        </div>
+                      </div>
+
+                      <div class="card text-center">
+                        <div class="ribbon ribbon-blue">
+                          <span>Academic</span>
+                        </div>
+                        <img class="card-img-top" src="assets/images/header.jpg">
+                        <div class="card-body">
+                          <hr class="style-three">
+                          <h4 class="card-title">Undergrad Thesis</h4>
+                          <h5 class="card-title">SKN Digitisation</h5>
+                          <p class="card-text">
+                            Along with my team I developed a website for the department of
+                            computer science in our college using Joomla v3.4 framework.
+                            I chose this as my thesis to bridge the increasing gap between
+                            the faculty and students. Services like Online Notice, Online Feedback,
+                            Documents Repository etc. were implemented.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <a target="_blank" rel="noopener"
+                          href=""
+                          class="btn btn-primary">Github</a>
+                        </div>
+                      </div>
+
+                      <div class="card text-center">
+                        <div class="ribbon ribbon-blue">
+                          <span>Academic</span>
+                        </div>
+                        <img class="card-img-top" src="assets/images/header.jpg">
+                        <div class="card-body">
+                          <hr class="style-three">
+                          <h4 class="card-title">Customer Survey Web App</h4>
+                          <p class="card-text">
+                            Developed survey database web application to store customer data,
+                            survey answers and featured listing of customers with options to
+                            search, add, remove a record. REST API’s were created for zip code.
+                            JSF2.2, Primefaces, SQL, JPA and JAX-RS were used.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <a target="_blank" rel="noopener"
+                          href="https://github.com/dhoshya/CS-688"
+                          class="btn btn-primary">
+                          Github  <i class="icon fa fa-github"></i></a>
                         </div>
                       </div>
 
@@ -722,7 +753,7 @@
   		&copy; dhoshya, 2018
   	</div>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-4">
           <h5 style="color: white">More About Me</h5>
@@ -752,7 +783,8 @@
 
             <p style="color: white">
               <a class="" href="#contact">
-                <i class="icon fa fa-phone"></i>571-444-9399
+                <i class="icon fa fa-phone"></i>
+                571-444-9399
               </a>
             </p>
         </div>

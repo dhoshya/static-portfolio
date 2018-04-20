@@ -6,6 +6,10 @@
   line-height: 170%;
 }
 
+.job-name {
+  color: #ffa500;
+}
+
 .job-highlight {
   color: white;
 }
@@ -14,7 +18,7 @@
   color: white;
 }
 
-.container {
+.container-timeline {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -134,7 +138,7 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 992px) {
   .timeline ul li div {
     width: 250px;
   }
@@ -144,7 +148,7 @@ time {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .timeline ul li {
     margin-left: 0px;
   }
