@@ -6,6 +6,10 @@
   line-height: 170%;
 }
 
+.job-name {
+  color: #ffa500;
+}
+
 .job-highlight {
   color: white;
 }
