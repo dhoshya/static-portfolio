@@ -59,11 +59,11 @@ class TextScrambler {
 
 const phrases = [
   'Rohan Joshi',
-  'Web\ Developer',
+  'Full-Stack\ Engineer',
   'Thinker',
   'dhoshya',
-  'Software\ Developer',
-  'Your Next Employee'
+  'Software\ Engineer',
+  'Your\ Next\ Employee'
 ]
 
 let el = document.querySelector('.textScramble')
