@@ -64,9 +64,11 @@ h6 {
 
 .my-photo {
   width: 280px;
-
 }
 
+.info-text {
+  color: white;
+}
 .jarallax {
   position: relative;
   background-size: 100% auto !important;
