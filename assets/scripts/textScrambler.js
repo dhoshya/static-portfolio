@@ -62,9 +62,8 @@ const phrases = [
   'Full-Stack\ Engineer',
   'Thinker',
   'dhoshya',
-  'Software\ Engineer',
-  'Monetater',
-  'Kibonaut'
+  'Software\ Engineer', 
+  'Your\ Next\ Employee'
 ]
 
 let el = document.querySelector('.textScramble')
