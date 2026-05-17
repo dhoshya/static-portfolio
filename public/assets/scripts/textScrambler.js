@@ -59,10 +59,11 @@ class TextScrambler {
 
 const phrases = [
   'Rohan Joshi',
-  'Full-Stack\ Engineer',
+  'Sr.\ Software\ Engineer',
+  'Engineering\ Leader',
+  'Capital\ Allocator',
   'Thinker',
   'dhoshya',
-  'Software\ Engineer',
   'Software\ Architect',
   'Investor'
 ]
